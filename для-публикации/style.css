@@ -23,7 +23,7 @@ img{display:block;max-width:100%}
 .blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;z-index:-1;pointer-events:none}
 
 /* типографика */
-h1,h2,h3{font-family:'Nunito',sans-serif;font-weight:800;line-height:1.08;letter-spacing:-.025em;color:var(--navy)}
+h1,h2,h3{font-family:'Nunito',sans-serif;font-weight:600;line-height:1.08;letter-spacing:-.025em;color:var(--navy)}
 h1 em,h2 em{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;letter-spacing:-.01em;color:#9E2B3E}
 h2{font-size:clamp(32px,5vw,50px);margin-bottom:38px}
 h3{font-size:21px;margin-bottom:10px;letter-spacing:-.015em}
@@ -31,7 +31,7 @@ h3{font-size:21px;margin-bottom:10px;letter-spacing:-.015em}
 section{padding:90px 0;position:relative}
 
 /* плашки-стикеры */
-.pill{display:inline-block;font-family:'Nunito',sans-serif;font-weight:800;font-size:16px;letter-spacing:-.01em;background:var(--pink-soft);color:var(--navy);padding:9px 20px 10px;border-radius:12px;position:relative;white-space:nowrap}
+.pill{display:inline-block;font-family:'Nunito',sans-serif;font-weight:600;font-size:16px;letter-spacing:-.01em;background:var(--pink-soft);color:var(--navy);padding:9px 20px 10px;border-radius:12px;position:relative;white-space:nowrap}
 .pill.blue{background:var(--blue-soft)}
 .pill.hot{background:var(--pink);color:#fff}
 .pill .pin{position:absolute;top:-7px;right:12px;width:12px;height:12px;border-radius:50%;background:var(--navy);box-shadow:inset -2px -2px 0 rgba(255,255,255,.25)}
@@ -50,7 +50,7 @@ section{padding:90px 0;position:relative}
 /* шапка */
 header{position:sticky;top:0;z-index:20;background:rgba(251,247,244,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:70px}
-nav{display:flex;gap:28px;font-family:'Nunito',sans-serif;font-weight:700;font-size:15px}
+nav{display:flex;gap:28px;font-family:'Nunito',sans-serif;font-weight:600;font-size:15px}
 nav a{text-decoration:none;color:var(--muted);transition:color 200ms ease}
 nav a:hover,nav a.on{color:var(--navy)}
 .head-btn{padding:11px 22px;font-size:14px}
@@ -84,12 +84,12 @@ nav a:hover,nav a.on{color:var(--navy)}
 .photo img{width:100%;height:100%;object-fit:cover}
 .photo .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;color:var(--muted);font-size:14px}
 .clip{position:absolute;top:-30px;right:46px;width:34px;z-index:3;transform:rotate(12deg)}
-.ribbon{position:absolute;z-index:3;left:-14px;bottom:-18px;background:var(--navy);color:#fff;font-family:'Nunito',sans-serif;font-weight:800;font-size:14px;padding:11px 22px;border-radius:999px;transform:rotate(-5deg);white-space:nowrap;box-shadow:0 12px 24px -12px rgba(110,26,42,.6)}
+.ribbon{position:absolute;z-index:3;left:-14px;bottom:-18px;background:var(--navy);color:#fff;font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;padding:11px 22px;border-radius:999px;transform:rotate(-5deg);white-space:nowrap;box-shadow:0 12px 24px -12px rgba(110,26,42,.6)}
 
 /* цифры */
 .stats{padding:30px 0 10px}
 .stats .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.stat b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:54px;line-height:1;color:var(--navy);letter-spacing:-.03em}
+.stat b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:54px;line-height:1;color:var(--navy);letter-spacing:-.03em}
 .stat b em{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;color:var(--pink)}
 .stat span{display:block;margin-top:12px;color:var(--muted);font-size:16px}
 
@@ -100,7 +100,7 @@ nav a:hover,nav a.on{color:var(--navy)}
 .facts{list-style:none}
 .facts li{padding:13px 0;border-bottom:1px dashed #E8D4D2}
 .facts li:last-child{border:0;padding-bottom:0}
-.facts b{font-family:'Nunito',sans-serif;font-weight:800;font-size:16px;display:block;color:var(--navy)}
+.facts b{font-family:'Nunito',sans-serif;font-weight:600;font-size:16px;display:block;color:var(--navy)}
 .facts span{color:var(--muted);font-size:15px}
 
 .mini-photo{border-radius:20px;overflow:hidden;aspect-ratio:5/4;margin-bottom:14px;border:6px solid #fff;transform:rotate(1.5deg);box-shadow:0 16px 30px -18px rgba(110,26,42,.35)}
@@ -110,7 +110,7 @@ nav a:hover,nav a.on{color:var(--navy)}
 .approach .box{background:var(--navy);color:#fff;border-radius:40px;padding:64px 56px;position:relative;overflow:hidden}
 .approach .box::before{content:"";position:absolute;width:360px;height:360px;border-radius:50%;background:var(--blue);filter:blur(90px);opacity:.35;right:-120px;top:-140px}
 .approach .hand{color:var(--blue)}
-.approach .big{position:relative;font-family:'Nunito',sans-serif;font-weight:700;font-size:clamp(22px,3.2vw,32px);line-height:1.35;letter-spacing:-.015em;max-width:860px}
+.approach .big{position:relative;font-family:'Nunito',sans-serif;font-weight:600;font-size:clamp(22px,3.2vw,32px);line-height:1.35;letter-spacing:-.015em;max-width:860px}
 .approach .big em{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;color:var(--blue)}
 .approach p.sub{position:relative;margin-top:24px;max-width:640px;color:#EBD3D6}
 
@@ -129,8 +129,8 @@ nav a:hover,nav a.on{color:var(--navy)}
 /* этапы */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .step{border:1.5px solid var(--navy);border-radius:120px 120px 30px 30px;padding:40px 26px 32px;background:#fff;text-align:center}
-.step .n{font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:var(--muted)}
-.step .n b{color:var(--pink);font-size:20px;font-weight:800}
+.step .n{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;color:var(--muted)}
+.step .n b{color:var(--pink);font-size:20px;font-weight:600}
 .step .e{font-size:38px;display:block;margin:12px 0 10px}
 .step h3{color:var(--pink);font-size:20px}
 .step span.t{color:var(--muted);font-size:15px;display:block}
@@ -159,11 +159,11 @@ nav a:hover,nav a.on{color:var(--navy)}
 .who .pill:nth-child(odd){transform:rotate(-2deg)}
 .who .pill:nth-child(even){transform:rotate(2deg)}
 .fmt{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px}
-.fmt b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:26px;color:var(--navy);letter-spacing:-.02em;margin-bottom:6px}
+.fmt b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:26px;color:var(--navy);letter-spacing:-.02em;margin-bottom:6px}
 .fmt span{color:var(--muted);font-size:16px}
 
 footer{padding:40px 0 56px;text-align:center}
-footer a{margin:0 12px;font-family:'Nunito',sans-serif;font-weight:700;color:var(--muted);text-decoration:none}
+footer a{margin:0 12px;font-family:'Nunito',sans-serif;font-weight:600;color:var(--muted);text-decoration:none}
 footer a:hover{color:var(--navy)}
 
 /* появление при прокрутке */
@@ -202,12 +202,12 @@ footer a:hover{color:var(--navy)}
 /* 5+ лет — компактная плашка */
 .exp-sec{padding:20px 0 30px}
 .exp{display:flex;align-items:center;gap:26px;max-width:760px;margin:0 auto;padding:22px 28px;border-radius:24px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
-.exp-num{font-family:'Nunito',sans-serif;font-weight:800;font-size:64px;line-height:1;color:var(--navy);letter-spacing:-.04em;flex:none}
+.exp-num{font-family:'Nunito',sans-serif;font-weight:600;font-size:64px;line-height:1;color:var(--navy);letter-spacing:-.04em;flex:none}
 .exp-num em{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;color:var(--pink)}
-.exp-text b{font-family:'Nunito',sans-serif;font-weight:800;font-size:19px;color:var(--navy);display:block}
+.exp-text b{font-family:'Nunito',sans-serif;font-weight:600;font-size:19px;color:var(--navy);display:block}
 .exp-text p{color:var(--muted);font-size:15px;margin-top:8px;line-height:1.5}
 .path{display:flex;align-items:center;gap:8px;margin-top:8px}
-.path span{font-family:'Nunito',sans-serif;font-weight:800;font-size:13px;padding:4px 12px;border-radius:999px;background:var(--blue-soft);color:var(--navy)}
+.path span{font-family:'Nunito',sans-serif;font-weight:600;font-size:13px;padding:4px 12px;border-radius:999px;background:var(--blue-soft);color:var(--navy)}
 .path span.on{background:var(--navy);color:#fff}
 .path i{font-style:normal;color:var(--pink)}
 
@@ -215,11 +215,11 @@ footer a:hover{color:var(--navy)}
 .about-box{max-width:820px}
 .about-box p{color:var(--ink);margin-bottom:14px}
 .about-box p:last-child{margin-bottom:0}
-.about-lead{font-family:'Nunito',sans-serif;font-weight:800;font-size:clamp(20px,2.6vw,26px);line-height:1.3;color:var(--navy)!important;letter-spacing:-.015em}
+.about-lead{font-family:'Nunito',sans-serif;font-weight:600;font-size:clamp(20px,2.6vw,26px);line-height:1.3;color:var(--navy)!important;letter-spacing:-.015em}
 .about-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 20px}
 .about-facts div{background:var(--blue-soft);border-radius:16px;padding:14px 18px}
 .about-facts div:nth-child(2){background:var(--pink-soft)}
-.about-facts b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--pink)}
+.about-facts b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--pink)}
 .about-facts span{font-size:16px;color:var(--ink)}
 
 /* этапы — извилистый маршрут */
@@ -232,7 +232,7 @@ footer a:hover{color:var(--navy)}
 .rs div{position:absolute;top:0;transform:translateY(-50%);font-size:14.5px;line-height:1.4;color:var(--muted)}
 .rs.l div{left:calc(32% + 22px);right:0}
 .rs.r div{right:calc(32% + 22px);left:0;text-align:right}
-.rs b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:18px;color:var(--navy);margin-bottom:2px}
+.rs b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:18px;color:var(--navy);margin-bottom:2px}
 
 /* услуги с фото */
 .svc{display:grid;grid-template-columns:.75fr 1.25fr;gap:40px;align-items:start}
@@ -246,7 +246,7 @@ footer a:hover{color:var(--navy)}
 .extra-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .extra-item{display:flex;gap:16px;padding:22px 24px;border-radius:22px;border:1.5px dashed #D9BFC3;background:var(--pink-pale)}
 .extra-item .ex-n{font-family:'Playfair Display',serif;font-style:italic;font-size:30px;color:var(--pink);line-height:1;flex:none}
-.extra-item b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:18px;color:var(--navy);margin-bottom:4px}
+.extra-item b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:18px;color:var(--navy);margin-bottom:4px}
 .extra-item div{color:var(--muted);font-size:15.5px}
 
 /* отзывы */
@@ -303,7 +303,7 @@ footer a:hover{color:var(--navy)}
 .wt{position:absolute;top:0;transform:translateY(-50%);width:34%;font-size:15.5px;line-height:1.45;color:var(--muted)}
 .ws.l .wt{right:calc(62% + 28px);text-align:right}
 .ws.r .wt{left:calc(62% + 28px)}
-.wt b{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:20px;color:var(--navy);margin-bottom:2px}
+.wt b{display:block;font-family:'Nunito',sans-serif;font-weight:600;font-size:20px;color:var(--navy);margin-bottom:2px}
 .wn{display:block;font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--pink);line-height:1}
 @media(max-width:860px){
   .way{height:640px}
@@ -333,6 +333,25 @@ h1,h2,h3{color:var(--ink)}
 #steps{background:linear-gradient(180deg,transparent 0,var(--blue-soft) 18%,var(--blue-soft) 82%,transparent 100%)}
 .way-line path{stroke:var(--sky-deep)}
 .ws i{background:#fff;border:4px solid var(--navy);box-shadow:0 0 0 6px rgba(157,189,230,.45)}
-.wn{display:inline-block;font-family:'Nunito',sans-serif;font-style:normal;font-weight:800;font-size:12px;letter-spacing:.06em;color:var(--sky-deep);background:#fff;padding:2px 9px;border-radius:999px;margin-bottom:6px}
+.wn{display:inline-block;font-family:'Nunito',sans-serif;font-style:normal;font-weight:600;font-size:12px;letter-spacing:.06em;color:var(--sky-deep);background:#fff;padding:2px 9px;border-radius:999px;margin-bottom:6px}
 .wt b{color:var(--ink)}
 .hero h1{font-size:clamp(36px,5.2vw,60px)}
+
+/* 19.11: 5+ лет внутри «Обо мне», выделения */
+.about-exp{display:flex;align-items:center;gap:22px;background:var(--blue-soft);border-radius:16px;padding:16px 20px;margin:6px 0 12px}
+.about-exp .exp-num{font-size:56px}
+.about-exp .path span{background:#fff}
+.about-exp .path span.on{background:var(--navy)}
+.about-exp .exp-text p{color:var(--ink);opacity:.8}
+.about-facts{margin-top:0}
+.hl{color:var(--navy);font-weight:600;background:linear-gradient(transparent 62%,var(--pink-soft) 62%);padding:0 2px}
+@media (max-width:640px){.about-exp{gap:14px;padding:14px 16px}.about-exp .exp-num{font-size:44px}}
+
+/* 19.11: заголовок в 2 строки, тоньше */
+.hero .wrap{grid-template-columns:1.3fr .7fr}
+.hero h1{font-weight:600;font-size:clamp(34px,4.3vw,54px);letter-spacing:-.02em}
+.h1-top{white-space:nowrap}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.h1-top{white-space:normal}.h1-br{display:none}}
+
+/* 19.11: тоньше везде, кроме кнопок */
+b,strong{font-weight:600}
