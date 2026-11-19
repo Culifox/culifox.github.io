@@ -364,3 +364,4 @@ html{scroll-padding-top:90px}
 
 /* 19.11 вечер: «Обо мне» на всю ширину, как «Мой подход» */
 .about-box{max-width:none}
+.rv img{height:auto}
