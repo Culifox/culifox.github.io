@@ -355,3 +355,9 @@ h1,h2,h3{color:var(--ink)}
 
 /* 19.11: тоньше везде, кроме кнопок */
 b,strong{font-weight:600}
+
+/* 19.11 замечания Лёши */
+html{scroll-padding-top:90px}
+@media (hover:hover){.btn-soft:hover{background:#EBCDD1;color:var(--navy)}}
+.card-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+.card-btns .btn{margin-top:0}
