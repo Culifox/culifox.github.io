@@ -361,3 +361,6 @@ html{scroll-padding-top:90px}
 @media (hover:hover){.btn-soft:hover{background:#EBCDD1;color:var(--navy)}}
 .card-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
 .card-btns .btn{margin-top:0}
+
+/* 19.11 вечер: «Обо мне» на всю ширину, как «Мой подход» */
+.about-box{max-width:none}
