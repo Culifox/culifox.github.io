@@ -365,3 +365,5 @@ html{scroll-padding-top:90px}
 /* 19.11 вечер: «Обо мне» на всю ширину, как «Мой подход» */
 .about-box{max-width:none}
 .rv img{height:auto}
+/* 19.11: реквизиты в подвале */
+footer .legal{margin:18px auto 0;max-width:560px;padding:0 20px;font-size:13px;line-height:1.5;color:var(--muted);opacity:.8}
