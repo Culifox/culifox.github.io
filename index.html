@@ -7,7 +7,10 @@
 <meta name="description" content="Таргетированная реклама и маркетинг в Instagram и Facebook: не просто настройка, а система, которая приводит клиентов. Бесплатная консультация.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@1,500&family=Marck+Script&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@1,500&family=Marck+Script&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@1,500&family=Marck+Script&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@1,500&family=Marck+Script&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="image" href="foto-3.webp" type="image/webp" fetchpriority="high">
 <link rel="stylesheet" href="style.css">
 <script>if(!/shot/.test(location.search))document.documentElement.classList.add('js')</script>
 </head>
@@ -53,7 +56,7 @@
       <span class="shape"></span>
       <svg class="clip" viewBox="0 0 34 80" fill="none"><path d="M24 22 V60 a9 9 0 0 1 -18 0 V14 a6 6 0 0 1 12 0 V56 a3 3 0 0 1 -6 0 V24" stroke="#A08A8D" stroke-width="3.5" stroke-linecap="round"/></svg>
       <div class="photo">
-        <img src="foto-3.jpg" alt="Алина" style="object-position:50% 80%">
+        <picture><source srcset="foto-3.webp" type="image/webp"><img src="foto-3.jpg" alt="Алина" width="800" height="1170" fetchpriority="high" style="object-position:50% 80%"></picture>
       </div>
       <span class="ribbon">@culifox ✦ таргет ✦ маркетинг</span>
     </div>
@@ -119,7 +122,7 @@
     <div class="svc">
       <div class="svc-photo reveal">
         <span class="shape"></span>
-        <div class="photo"><img src="foto-4.jpg" alt="Алина" loading="lazy" style="object-position:50% 75%"></div>
+        <div class="photo"><picture><source srcset="foto-4.webp" type="image/webp"><img src="foto-4.jpg" alt="Алина" width="800" height="1182" loading="lazy" decoding="async" style="object-position:50% 75%"></picture></div>
       </div>
       <div class="svc-cards">
         <div class="win card reveal">
@@ -169,9 +172,9 @@
     <span class="hand">мне пишут</span>
     <h2>Отзывы <em>клиентов</em></h2>
     <div class="reviews">
-      <figure class="rv"><img src="otzyvy/otzyv-3.jpg" alt="Отзыв клиентки" width="558" height="684" decoding="async"></figure>
-      <figure class="rv"><img src="otzyvy/otzyv-2.jpg" alt="Отзыв клиентки" width="479" height="383" decoding="async"></figure>
-      <figure class="rv"><img src="otzyvy/otzyv-1.jpg" alt="Отзыв клиента" width="359" height="350" decoding="async"></figure>
+      <figure class="rv"><picture><source srcset="otzyvy/otzyv-3.webp" type="image/webp"><img src="otzyvy/otzyv-3.jpg" alt="Отзыв клиентки" width="558" height="684" decoding="async"></picture></figure>
+      <figure class="rv"><picture><source srcset="otzyvy/otzyv-2.webp" type="image/webp"><img src="otzyvy/otzyv-2.jpg" alt="Отзыв клиентки" width="479" height="383" decoding="async"></picture></figure>
+      <figure class="rv"><picture><source srcset="otzyvy/otzyv-1.webp" type="image/webp"><img src="otzyvy/otzyv-1.jpg" alt="Отзыв клиента" width="359" height="350" decoding="async"></picture></figure>
     </div>
   </div>
 </section>
